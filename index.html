@@ -255,7 +255,7 @@ div.theemailbody * .ui-resizable-e {
 	background-image: url('leftbar.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* height: 100%; */
+	height: 100vh;
 	min-height: 1200px;
 	cursor: pointer;
 }
@@ -584,8 +584,8 @@ td.right:hover *  .arrowshadow {
 }
 .emailicon {
 	float:left;
-	height:35px;
-	width:35px;
+	height:28px;
+	width:28px;
 	/* background-image:url('https://ui-avatars.com/api/?background=0D8ABC&color=fff&rounded=true'); */
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -883,6 +883,14 @@ opacity:1.0;
 	font-family: 'Roboto', sans-serif;
 	color:#888;
 	font-size:8pt;
+}
+
+.emailtitle > span{
+	opacity: 0;
+}
+
+.emailtitle > span:hover{
+	opacity: 1;
 }
 
 .showhover {
